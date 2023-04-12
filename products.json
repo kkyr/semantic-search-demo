@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "description": "Fitbit Charge 5 Advanced Fitness Tracker",
+    "brand": "Fitbit",
+    "price": "$179.95"
+  },
+  {
+    "id": 2,
+    "description": "Nike Free Metcon 5 Training Shoes",
+    "brand": "Nike",
+    "price": "$120.00"
+  },
+  {
+    "id": 3,
+    "description": "Under Armour Men's Project Rock Fleece Hoodie",
+    "brand": "Under Armour",
+    "price": "$75.00"
+  },
+  {
+    "id": 4,
+    "description": "Garmin Forerunner 945 GPS Running Watch",
+    "brand": "Garmin",
+    "price": "$599.99"
+  },
+  {
+    "id": 5,
+    "description": "Adidas Men's Ultraboost 21 Running Shoes",
+    "brand": "Adidas",
+    "price": "$180.00"
+  },
+  {
+    "id": 6,
+    "description": "Reebok Women's CrossFit Nano 9 Training Shoes",
+    "brand": "Reebok",
+    "price": "$130.00"
+  },
+  {
+    "id": 7,
+    "description": "Bose SoundSport Free Truly Wireless Sport Headphones",
+    "brand": "Bose",
+    "price": "$199.00"
+  },
+  {
+    "id": 8,
+    "description": "TRX Suspension Trainer",
+    "brand": "TRX",
+    "price": "$169.95"
+  },
+  {
+    "id": 9,
+    "description": "PowerBlock Elite Dumbbells",
+    "brand": "PowerBlock",
+    "price": "$499.00"
+  },
+  {
+    "id": 10,
+    "description": "Fit Simplify Resistance Loop Exercise Bands",
+    "brand": "Fit Simplify",
+    "price": "$10.95"
+  },
+  {
+    "id": 11,
+    "description": "ProsourceFit Acupressure Mat and Pillow Set",
+    "brand": "ProsourceFit",
+    "price": "$19.99"
+  },
+  {
+    "id": 12,
+    "description": "Bowflex SelectTech 552 Adjustable Dumbbells",
+    "brand": "Bowflex",
+    "price": "$399.00"
+  },
+  {
+    "id": 13,
+    "description": "Sweatflix Subscription",
+    "brand": "Sweatflix",
+    "price": "$19.99/month"
+  },
+  {
+    "id": 14,
+    "description": "Peloton Bike+",
+    "brand": "Peloton",
+    "price": "$2,495.00"
+  },
+  {
+    "id": 15,
+    "description": "Rogue Fitness Wrist Wraps",
+    "brand": "Rogue Fitness",
+    "price": "$15.00"
+  },
+  {
+    "id": 16,
+    "description": "Concept2 Model D Indoor Rowing Machine",
+    "brand": "Concept2",
+    "price": "$1,245.00"
+  },
+  {
+    "id": 17,
+    "description": "Nike Women's Pro Warm 1/2-Zip Long-Sleeve Top",
+    "brand": "Nike",
+    "price": "$65.00"
+  },
+  {
+    "id": 18,
+    "description": "Fitbit Alta HR Fitness Tracker",
+    "brand": "Fitbit",
+    "price": "$129.95"
+  },
+  {
+    "id": 19,
+    "description": "Reebok Men's Training Essentials French Terry Shorts",
+    "brand": "Reebok",
+    "price": "$35.00"
+  },
+  {
+    "id": 20,
+    "description": "Garmin Venu 2S GPS Smartwatch",
+    "brand": "Garmin",
+    "price": "$399.99"
+  },
+  {
+    "id": 21,
+    "description": "Adidas Women's Believe This 2.0 3-Stripes 7/8 Tights",
+    "brand": "Adidas",
+    "price": "$70.00"
+  },
+  {
+    "id": 22,
+    "description": "TRX Home2 System",
+    "brand": "TRX",
+    "price": "$199.95"
+  },
+  {
+    "id": 23,
+    "description": "Power Plate Pulse Portable Handheld Massager",
+    "brand": "Power Plate",
+    "price": "$199.00"
+  },
+  {
+    "id": 24,
+    "description": "FitOn App Subscription",
+    "brand": "FitOn",
+    "price": "$19.99/month"
+  },
+  {
+    "id": 25,
+    "description": "Rogue Fitness Speed Rope",
+    "brand": "Rogue Fitness",
+    "price": "$22.50"
+  },
+  {
+    "id": 26,
+    "description": "Bowflex Max Trainer M8",
+    "brand": "Bowflex",
+    "price": "$2,299.00"
+  },
+  {
+    "id": 27,
+    "description": "YogaClub Subscription",
+    "brand": "YogaClub",
+    "price": "$79.00/box"
+  },
+  {
+    "id": 28,
+    "description": "TriggerPoint CORE Foam Roller",
+    "brand": "TriggerPoint",
+    "price": "$39.99"
+  },
+  {
+    "id": 29,
+    "description": "ProsourceFit High Density Speckled Foam Rollers",
+    "brand": "ProsourceFit",
+    "price": "$14.99"
+  },
+  {
+    "id": 30,
+    "description": "Nike Men's Dry Training Pants",
+    "brand": "Nike",
+    "price": "$55.00"
+  },
+  {
+    "id": 31,
+    "description": "Fitbit Inspire 2 Fitness Tracker",
+    "brand": "Fitbit",
+    "price": "$99.95"
+  },
+  {
+    "id": 32,
+    "description": "Reebok Women's Training Essentials Linear Logo Tank Top",
+    "brand": "Reebok",
+    "price": "$25.00"
+  },
+  {
+    "id": 33,
+    "description": "Garmin Edge 1030 Plus GPS Bike Computer",
+    "brand": "Garmin",
+    "price": "$599.99"
+  },
+  {
+    "id": 34,
+    "description": "Adidas Men's Own The Run T-Shirt",
+    "brand": "Adidas",
+    "price": "$30.00"
+  },
+  {
+    "id": 35,
+    "description": "TRX Pro 4 System",
+    "brand": "TRX",
+    "price": "$249.95"
+  },
+  {
+    "id": 36,
+    "description": "Power Plate Mini+ Massage Gun",
+    "brand": "Power Plate",
+    "price": "$149.99"
+  },
+  {
+    "id": 37,
+    "description": "Fitbod App Subscription",
+    "brand": "Fitbod",
+    "price": "$14.99/month"
+  },
+  {
+    "id": 38,
+    "description": "Rogue Fitness Wrist Wraps",
+    "brand": "Rogue Fitness",
+    "price": "$16.50"
+  },
+  {
+    "id": 39,
+    "description": "Concept2 Model D Indoor Rowing Machine",
+    "brand": "Concept2",
+    "price": "$1,385.00"
+  },
+  {
+    "id": 40,
+    "description": "Gaiam Yoga Block",
+    "brand": "Gaiam",
+    "price": "$9.98"
+  },
+  {
+    "id": 41,
+    "description": "Fitbit Aria Air Smart Scale",
+    "brand": "Fitbit",
+    "price": "$49.95"
+  },
+  {
+    "id": 42,
+    "description": "Reebok Men's Training Essentials Melange Hoodie",
+    "brand": "Reebok",
+    "price": "$60.00"
+  },
+  {
+    "id": 43,
+    "description": "Garmin Forerunner 745 GPS Running Smartwatch",
+    "brand": "Garmin",
+    "price": "$499.99"
+  },
+  {
+    "id": 44,
+    "description": "Adidas Women's Ultimate365 Golf Shorts",
+    "brand": "Adidas",
+    "price": "$65.00"
+  },
+  {
+    "id": 45,
+    "description": "MyFitnessPal Premium Subscription",
+    "brand": "MyFitnessPal",
+    "price": "$9.99/month"
+  },
+  {
+    "id": 46,
+    "description": "Theragun Elite Percussive Therapy Device",
+    "brand": "Therabody",
+    "price": "$399.00"
+  },
+  {
+    "id": 47,
+    "description": "Rogue Fitness ECHO Bike",
+    "brand": "Rogue Fitness",
+    "price": "$775.00"
+  },
+  {
+    "id": 48,
+    "description": "Nike Women's Dry Tempo Running Shorts",
+    "brand": "Nike",
+    "price": "$30.00"
+  },
+  {
+    "id": 49,
+    "description": "Fitbit Ace 3 Kids Fitness Tracker",
+    "brand": "Fitbit",
+    "price": "$79.95"
+  },
+  {
+    "id": 50,
+    "description": "Reebok Women's Training Essentials Linear Logo T-Shirt",
+    "brand": "Reebok",
+    "price": "$20.00"
+  }
+]

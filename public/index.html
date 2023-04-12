@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness store</title>
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+  <style>
+    body {
+      font-family: 'Verdana';
+    }
+
+    .container {
+      margin: 30px auto 30px auto;
+      max-width: 48rem;
+      padding: 0 1rem 0 1rem;
+    }
+
+    .search-input {
+      height: 32px;
+      font-size: 20px;
+      width: 100%;
+    }
+
+    .product-container {
+      display: flex;
+      flex-direction: column;
+      margin: 1rem auto 0 auto;
+    }
+
+    .product-item {
+      border: 1px solid #ccc;
+      border-radius: 0.5rem;
+      padding: 10px;
+      margin-top: 10px;
+    }
+
+    .product-item h2 {
+      font-size: 20px;
+      margin: 0;
+    }
+
+    .product-item .brand {
+      color: #5a5a5a;
+    }
+
+    .product-item .description {
+      margin: 10px 0 10px 0;
+    }
+
+    .product-item .price {
+      color: green;
+      float: right;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Fitness store</h1>
+    <div x-data="search">
+      <input
+        class="search-input"
+        type="text"
+        placeholder="Search for any product..."
+        x-model="query"
+        @input.debounce="searchProducts"/>
+      <div class="product-container">
+        <template x-for="product in products">
+          <div class="product-item">
+            <div class="brand" x-text="product.brand"></div>
+            <h2 class="description" x-text="product.description"></h2>
+            <div class="price" x-text="product.price"></div>
+          </div>
+        </template>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('alpine:init', () => {
+      Alpine.data('search', () => ({
+        query: '',
+        products: [],
+
+        searchProducts() {
+          fetch('/products?query=' + this.query)
+            .then((res) => {
+              return res.json()
+            })
+            .then((data) => {
+              this.products = data['products']
+            })
+            .catch((err) => {
+              console.log(err)
+            })
+        },
+      }))
+    })
+  </script>
+</body>
+
+</html>
