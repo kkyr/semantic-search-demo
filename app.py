@@ -24,11 +24,9 @@ def index():
 @app.route('/products', methods=['GET'])
 def products():
     try:
-        query = request.args.get('query')
-        if not query:
-            return {}
         brand = request.args.get('brand')
-        results = collection.get(query=query, brand=brand, n_results=3)
+        query = request.args.get('query')
+        results = collection.get(query=query, brand=brand, n_results=3) if query else []
         return jsonify({'products': results})
     except Exception as e:
         return jsonify({'error': str(e)}), 500
