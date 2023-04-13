@@ -1,0 +1,1 @@
+Accompanies blog post [http://kkyr.io/blog/semantic-search-with-openai-and-chroma](http://kkyr.io/blog/semantic-search-with-openai-and-chroma).
