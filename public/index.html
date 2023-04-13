@@ -13,6 +13,11 @@
       font-family: 'Verdana';
     }
 
+    ul {
+      padding-left: 0;
+      list-style-type: none;
+    }
+
     .container {
       margin: 30px auto 30px auto;
       max-width: 48rem;
@@ -69,15 +74,15 @@
         placeholder="Search for any product..."
         x-model="query"
         @input.debounce="searchProducts"/>
-      <div class="product-container">
+      <ul class="product-container">
         <template x-for="product in products">
-          <div class="product-item">
+          <li class="product-item">
             <div class="brand" x-text="product.brand"></div>
             <h2 class="description" x-text="product.description"></h2>
             <div class="price" x-text="product.price"></div>
-          </div>
+          </li>
         </template>
-      </div>
+      </ul>
     </div>
   </div>
 
